@@ -1,6 +1,6 @@
 # Criton [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL]
 
-Crypt password.
+Crypt passwords.
 
 ## Install
 
