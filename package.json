@@ -1,0 +1,36 @@
+{
+  "name": "criton",
+  "version": "1.0.0",
+  "description": "crypt passwords",
+  "main": "lib/criton.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "jscs-fix": "jscs --esnext test src --fix",
+    "codestyle": "jshint lib test && jscs --esnext lib test",
+    "report": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/node-criton.git"
+  },
+  "keywords": [
+    "crypt",
+    "password",
+    "functional"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderaiser/node-criton/issues"
+  },
+  "homepage": "https://github.com/coderaiser/node-criton",
+  "devDependencies": {
+    "coveralls": "~2.11.8",
+    "jscs": "^2.4.0",
+    "jshint": "^2.9.1",
+    "nyc": "~6.0.0",
+    "sinon": "~1.17.3",
+    "tape": "^4.2.0"
+  }
+}
