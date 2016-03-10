@@ -27,12 +27,12 @@ criton('hello', 'MD5');
 MIT
 
 [NPMIMGURL]:                https://img.shields.io/npm/v/criton.svg?style=flat
-[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/criton/master.svg?style=flat
+[BuildStatusIMGURL]:        https://img.shields.io/travis/coderaiser/node-criton/master.svg?style=flat
 [DependencyStatusIMGURL]:   https://img.shields.io/gemnasium/coderaiser/node-criton.svg?style=flat
 [LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [NPMURL]:                   https://npmjs.org/package/criton "npm"
-[BuildStatusURL]:           https://travis-ci.org/coderaiser/criton  "Build Status"
+[BuildStatusURL]:           https://travis-ci.org/coderaiser/node-criton  "Build Status"
 [DependencyStatusURL]:      https://gemnasium.com/coderaiser/node-criton "Dependency Status"
 [LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-[CoverageURL]:              https://coveralls.io/github/coderaiser/criton?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/criton/badge.svg?branch=master&service=github
+[CoverageURL]:              https://coveralls.io/github/coderaiser/node-criton?branch=master
+[CoverageIMGURL]:           https://coveralls.io/repos/coderaiser/node-criton/badge.svg?branch=master&service=github
