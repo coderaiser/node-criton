@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/coderaiser/node-criton",
   "devDependencies": {
-    "coveralls": "^2.11.8",
+    "coveralls": "^3.0.0",
     "jscs": "^3.0.1",
     "jshint": "^2.9.1",
     "nyc": "^11.0.2",
