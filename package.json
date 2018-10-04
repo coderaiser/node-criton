@@ -5,8 +5,9 @@
   "main": "lib/criton.js",
   "scripts": {
     "test": "tape test/*.js",
-    "jscs-fix": "jscs --esnext test src --fix",
-    "codestyle": "jshint lib test && jscs --esnext lib test",
+    "lint": "redrun lint:*",
+    "lint:lib": "eslint -c .eslintrc.lib lib",
+    "lint:test": "eslint test",
     "report": "nyc report --reporter=text-lcov | coveralls",
     "coverage": "nyc npm test"
   },
@@ -27,8 +28,8 @@
   "homepage": "https://github.com/coderaiser/node-criton",
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "jscs": "^3.0.1",
-    "jshint": "^2.9.1",
+    "eslint": "^5.6.1",
+    "eslint-plugin-node": "^7.0.1",
     "nyc": "^13.0.1",
     "sinon": "^6.0.0",
     "tape": "^4.2.0"
