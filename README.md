@@ -11,7 +11,7 @@ npm i criton --save
 ## How to use?
 
 ```js
-let criton = require('criton');
+const criton = require('criton');
 
 criton('hello');
 // returns
